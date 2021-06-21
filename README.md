@@ -17,6 +17,18 @@ Sampling/modeling approaches:
      6. EasyEnsembleClassifier
 
 
+## Results
+| Approach             | Accuracy | Precision | Recall | Link                                                                                                                |
+| :------------------- | :------- | :-------- | :----- | :------------------------------------------------------------------------------------------------------------------ |
+| RandomOverSampler    | xx.xx    | xx.xx     | xx.xx  | [RandomOverSampler](https://github.com/goldbala55/surfs_up/blob/main/December_Hawaii_Temperature_Statistics.png)    |
+| SMOTE                | xx.xx    | xx.xx     | xx.xx  | [SMOTE](https://github.com/goldbala55/surfs_up/blob/main/December_Hawaii_Temperature_Statistics.png)                |
+| RandomUnderSampler   | xx.xx    | xx.xx     | xx.xx  | [RandomUnderSampler](https://github.com/goldbala55/surfs_up/blob/main/December_Hawaii_Temperature_Statistics.png)   |
+| SMOTEENN             | xx.xx    | xx.xx     | xx.xx  | [SMOTEENN](https://github.com/goldbala55/surfs_up/blob/main/December_Hawaii_Temperature_Statistics.png)             |
+| BalancedRandomForest | xx.xx    | xx.xx     | xx.xx  | [BalancedRandomForest](https://github.com/goldbala55/surfs_up/blob/main/December_Hawaii_Temperature_Statistics.png) |
+| EasyEnsemble         | xx.xx    | xx.xx     | xx.xx  | [EasyEnsemble](https://github.com/goldbala55/surfs_up/blob/main/December_Hawaii_Temperature_Statistics.png)         |
+  
+
+
 
 Overview of the analysis: Explain the purpose of this analysis.
 
