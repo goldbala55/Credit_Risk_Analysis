@@ -32,8 +32,10 @@ Sampling/modeling approaches:
     Observations:
    * In the above results we see that except for the EasyEnsemble the other model's accuracy is mediocre.  While the issues of using accuracy with discreet data is well known, especially with imbalanced data, for a loss prediction model we certainly would flag low accuracy as a concern.
    * Let's examine Recall and Precision metrics. 
-    * The precision in all the models is too low and indicates the models are predicting too many false positives, i.e., predicting a late payment/default that is has not occurred.
-    * The recall for the EasyEnsemble is solid and indicates the model correctly late payments/defaults at a 92% rate.  All the other models are too low for a scenario involving loss.
+    
+      - The precision in all the models is too low and indicates the models are predicting too many false positives, i.e., predicting a late payment/default that is has not occurred.
+    
+      - The recall for the EasyEnsemble is solid and indicates the model correctly late payments/defaults at a 92% rate.  All the other models are too low for a scenario involving loss.
 
 ## Summary
 Only the EasyEnsemble presents as a reasonable model and could be used to flag early potential issues but further analysis and improvements (or alternatives) before using in a production setting.  All the other models are inadequate to use.  They will poorly identify actual loss scenarios while identifying too many false positives - certainly a negative for customer satisfaction.
