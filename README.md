@@ -18,23 +18,22 @@ Sampling/modeling approaches:
 
 
 ## Results
-| Approach             | Accuracy | Precision | Recall | Link                                                                                                                |
-| :------------------- | :------- | :-------- | :----- | :------------------------------------------------------------------------------------------------------------------ |
-| RandomOverSampler    | xx.xx    | xx.xx     | xx.xx  | [RandomOverSampler](https://github.com/goldbala55/surfs_up/blob/main/December_Hawaii_Temperature_Statistics.png)    |
-| SMOTE                | xx.xx    | xx.xx     | xx.xx  | [SMOTE](https://github.com/goldbala55/surfs_up/blob/main/December_Hawaii_Temperature_Statistics.png)                |
-| RandomUnderSampler   | xx.xx    | xx.xx     | xx.xx  | [RandomUnderSampler](https://github.com/goldbala55/surfs_up/blob/main/December_Hawaii_Temperature_Statistics.png)   |
-| SMOTEENN             | xx.xx    | xx.xx     | xx.xx  | [SMOTEENN](https://github.com/goldbala55/surfs_up/blob/main/December_Hawaii_Temperature_Statistics.png)             |
-| BalancedRandomForest | xx.xx    | xx.xx     | xx.xx  | [BalancedRandomForest](https://github.com/goldbala55/surfs_up/blob/main/December_Hawaii_Temperature_Statistics.png) |
-| EasyEnsemble         | xx.xx    | xx.xx     | xx.xx  | [EasyEnsemble](https://github.com/goldbala55/surfs_up/blob/main/December_Hawaii_Temperature_Statistics.png)         |
+| Approach             | Accuracy | Precision | Recall | Link                                                                                                                 |
+| :------------------- | :------- | :-------- | :----- | :------------------------------------------------------------------------------------------------------------------- |
+| RandomOverSampler    | 0.63     | 0.01      | 0.62   | [RandomOverSampler](https://github.com/goldbala55/Credit_Risk_Analysis/blob/main/images/RandomOverSampler.png)       |
+| SMOTE                | 0.63     | 0.01      | 0.63   | [SMOTE](https://github.com/goldbala55/Credit_Risk_Analysis/blob/main/images/SMOTE.png)                               |
+| RandomUnderSampler   | 0.62     | 0.01      | 0.67   | [RandomUnderSampler](https://github.com/goldbala55/Credit_Risk_Analysis/blob/main/images/RandomUnderSampler.png)     |
+| SMOTEENN             | 0.64     | 0.01      | 0.70   | [SMOTEENN](https://github.com/goldbala55/Credit_Risk_Analysis/blob/main/images/SMOTEENN.png)                         |
+| BalancedRandomForest | 0.79     | 0.03      | 0.70   | [BalancedRandomForest](https://github.com/goldbala55/Credit_Risk_Analysis/blob/main/images/BalancedRandomForest.png) |
+| EasyEnsemble         | 0.93     | 0.09      | 0.92   | [EasyEnsemble](https://github.com/goldbala55/Credit_Risk_Analysis/blob/main/images/EasyEndemble.png)                 |
   
 
 
+    Observations:
+        They all suck.
 
-Overview of the analysis: Explain the purpose of this analysis.
-
-Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
-
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+## Summary
+Using these models will cause the lender heavy losses. 
 
  ## Resources
  Data: Lending Club provided credit history
